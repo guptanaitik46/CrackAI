@@ -39,3 +39,34 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
 | Layer              | Technology                     |
 |--------------------|---------------------------------|
 | Frontend           | Next.js (App Router), React.js |
+| Styling            | Tailwind CSS, Shadcn UI        |
+| Backend API Routes | Next.js API                    |
+| ORM                | Prisma                         |
+| Database           | PostgreSQL                     |
+| AI Integration     | OpenAI API / LLMs              |
+| Auth               | NextAuth / JWT Middleware      |
+| Deployment         | Vercel / Railway / Docker      |
+| Data Source        | Curated Salary Datasets + AI   |
+
+## 🛠 Installation & Setup (Local Dev)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/crack-ai.git
+
+# 2. Navigate to the folder
+cd crack-ai
+
+# 3. Install dependencies
+npm install
+
+# 4. Setup environment variables
+cp .env.example .env
+# Fill in: DATABASE_URL, NEXTAUTH_SECRET, OPENAI_API_KEY, etc.
+
+# 5. Run Prisma migrations
+npx prisma generate
+npx prisma migrate dev
+
+# 6. Start the development server
+npm run dev
