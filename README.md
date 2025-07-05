@@ -43,10 +43,9 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
 | Backend API Routes | Next.js API                    |
 | ORM                | Prisma                         |
 | Database           | PostgreSQL                     |
-| AI Integration     | OpenAI API / LLMs              |
-| Auth               | NextAuth / JWT Middleware      |
-| Deployment         | Vercel / Railway / Docker      |
-| Data Source        | Curated Salary Datasets + AI   |
+| AI Integration     | Gemini API                     |
+| Auth               | JWT Middleware                 |
+| Deployment         | Vercel                         |
 
 ## 🛠 Installation & Setup (Local Dev)
 
@@ -55,7 +54,7 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
 git clone https://github.com/yourusername/crack-ai.git
 
 # 2. Navigate to the folder
-cd crack-ai
+cd CrackAI
 
 # 3. Install dependencies
 npm install
