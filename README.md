@@ -2,7 +2,7 @@
 
 # 🚀 CrackAI – AI-Powered Career Insight & Resume Platform
 
-CrackAI is a cutting-edge, AI-integrated career assistance platform built using modern technologies like *Next.js, **PostgreSQL, **Prisma, **Tailwind CSS, and **Shadcn UI*. It provides real-time salary trends, personalized interview preparation, and intelligent ATS-friendly resume generation. Whether you're a student, job seeker, or switching domains, Crack AI has everything you need to get ahead.
+CrackAI is a cutting-edge, AI-integrated career assistance platform built using modern technologies like *Next.js*, *PostgreSQL*, *Prisma*, *Tailwind CSS*, and *Shadcn UI*. It provides real-time salary trends, personalized interview preparation, and intelligent ATS-friendly resume generation. Whether you're a student, job seeker, or switching domains, Crack AI has everything you need to get ahead.
 
 ## 🌟 Key Features
 
@@ -61,7 +61,7 @@ npm install
 
 # 4. Setup environment variables
 cp .env.example .env
-# Fill in: DATABASE_URL, NEXTAUTH_SECRET, OPENAI_API_KEY, etc.
+# Fill in: DATABASE_URL, NEXTAUTH_SECRET, GEMINI_API_KEY, etc.
 
 # 5. Run Prisma migrations
 npx prisma generate
