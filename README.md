@@ -51,7 +51,7 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/crack-ai.git
+git clone https://github.com/gutanaitik46/CrackAI.git
 
 # 2. Navigate to the folder
 cd CrackAI
