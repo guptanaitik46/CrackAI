@@ -9,7 +9,7 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
 ### 📊 1. Industry Salary Insights (Auto-updated Weekly)
 - Get real-time, role-based salary data (Min, Median, Max) for different domains.
 - Covers *50+ industries* including Tech, Design, Finance, Marketing, HR, Management, and more.
-- Insights are auto-refreshed every *7 days* using trusted datasets and ML pipelines.
+- Insights are auto-refreshed every *7 days* using inngest.
 
 ### 🧠 2. Unlimited Mock Tests & Smart Feedback
 - Take unlimited *AI-generated mock interview tests* – no limit on question sets.
@@ -21,8 +21,8 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
   - AI-powered personalized *feedback* on weak topics and suggested practice.
 
 ### 📄 3. Resume & CV Generator (AI-Enhanced)
-- Generate *ATS-optimized resumes* using AI suggestions.
-- Enter your *industry, role, and skills*, and let AI build a tailored resume/CV.
+- Generate *resume* using AI suggestions.
+- Enter your *industry, role, and skills*, and let AI help you to build a tailored resume/CV.
 - Key features:
   - Real-time resume editing with live preview
   - Multiple section customizations
@@ -44,7 +44,7 @@ CrackAI is a cutting-edge, AI-integrated career assistance platform built using 
 | ORM                | Prisma                         |
 | Database           | PostgreSQL                     |
 | AI Integration     | Gemini API                     |
-| Auth               | JWT Middleware                 |
+| Auth               | Clerk                 |
 | Deployment         | Vercel                         |
 
 ## 🛠 Installation & Setup (Local Dev)
